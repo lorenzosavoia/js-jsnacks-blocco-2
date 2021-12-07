@@ -16,8 +16,7 @@ while (nameSurname.length < 5) {
     let randomName = getRandomInteger(0,4);
     let randomSurname = getRandomInteger(0,4);
     if (!nameSurname.includes(names[randomName] + surname[randomSurname])) {
-        nameSurname.push(names[randomName] + surname[randomSurname])
-        
+        nameSurname.push(names[randomName] + surname[randomSurname])    
     }    
 }
 console.log(nameSurname);
